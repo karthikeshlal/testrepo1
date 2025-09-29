@@ -1,0 +1,17 @@
+# Exported from:        http://DESKTOP-LS62RGN:5516/
+# Release version:      25.1.1-512.313
+# Date created:         Mon Sep 29 21:37:54 IST 2025
+
+---
+apiVersion: xl-release/v1
+kind: Templates
+metadata:
+  path: /
+  home: testfolder1
+spec:
+- template: temp1
+  scheduledStartDate: 2025-09-29T09:00:00+05:30
+  phases:
+  - phase: New Phase
+  riskProfile: Default risk profile
+  author: admin
